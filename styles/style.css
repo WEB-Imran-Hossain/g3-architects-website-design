@@ -13,6 +13,7 @@
     padding: 50px 240px;
 }
 
+/* navigation area start */
 .nav-container{
     display: flex;
     justify-content: space-between;
@@ -21,7 +22,7 @@
 
 .logo-text{
     color: #131313;
-    font-size: 35px;
+    font-size: 2rem;
     font-weight: 700;
     cursor: pointer;
 }
@@ -44,3 +45,43 @@
 .menu-item:hover{
     color: #FF900E;
 }
+/* navigation area end */
+
+/* banner area start */
+.banner{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.banner-text{
+    color: #131313;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.banner-description{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 20px;
+}
+
+.btn-primary{
+    background-color: #FF900E;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 20px 25px;
+    border: none;
+    margin-top: 20px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.btn-primary:hover{
+    background-color: #fff;
+    color: #FF900E;
+}
+/* header area end */
