@@ -59,7 +59,6 @@
     color: #131313;
     font-size: 64px;
     font-weight: 700;
-    /* margin-top: 100px; */
 }
 
 .banner-description{
@@ -94,9 +93,50 @@
 }
 /* banner area end */
 
+/* features area start */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.features-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 85px;
+}
 
+.features-img-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
 
+.features-description-content{
+    padding-left: 70px;
+    padding-right: 70px;
+}
 
+.features-text{
+    color: #727272;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.text-design-one{
+    color: #131313;
+}
+
+.text-design-two{
+    color: #FF900E;
+}
+
+.features-description{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+}
 /* responsive style all devices */
 
 /* mobile devices */
