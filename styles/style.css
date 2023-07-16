@@ -154,6 +154,7 @@ main{
     border-left: 5px solid #FF900E;
     padding-left: 20px;
 }
+
 .features-card{
     border-radius: 8px;
     background-color: #fff;
@@ -165,6 +166,11 @@ main{
 .features-love-img{
     padding-left: 130px;
 }
+
+.features-love-pic{
+    width: 100%;
+}
+
 .header-love-text{
     color: #131313;
     font-size: 20px;
@@ -203,6 +209,7 @@ main{
     line-height: 40px;
 }
 
+/* fact area start */
 
 /* responsive style all devices */
 
@@ -225,10 +232,30 @@ main{
 
     .features-team-container{
         flex-direction: column;
+        text-align: center;
     }
 
     .features-img-content{
         grid-template-columns: 1fr;
+    }
+
+    .features-love-container{
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+        
+    }
+
+    .features-love-img {
+        padding: 20px;
+    }
+
+    .features-love-pic{
+        align-items: center;
+    }
+
+    .experience-badge{
+        margin:  10px 70px;
     }
 }
 
@@ -246,5 +273,31 @@ main{
         flex-direction: row;
         margin-top: 30px;
         gap: 25px
+    }
+
+    .features-team-container{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .features-img-content{
+        grid-template-columns: 1fr;
+    }
+
+    .features-love-container{
+        flex-direction: column;
+        
+    }
+
+    .features-love-img {
+        padding: 20px;
+    }
+
+    .features-love-pic{
+        align-items: center;
+    }
+
+    .experience-badge{
+        margin:  10px 70px;
     }
 }
