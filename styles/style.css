@@ -98,7 +98,7 @@ main{
     max-width: 1440px;
     margin: 70px auto;
 }
-.features-container{
+.features-team-container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -111,7 +111,7 @@ main{
     gap: 24px;
 }
 
-.features-description-content{
+.features-team-description-content{
    padding:70px;
 }
 
@@ -138,6 +138,17 @@ main{
     line-height: 26px;
     margin-top: 24px;
 }
+
+/* features love area start */
+.features-love-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
 /* responsive style all devices */
 
 /* mobile devices */
@@ -157,7 +168,7 @@ main{
         gap: 25px
     }
 
-    .features-container{
+    .features-team-container{
         flex-direction: column;
     }
 
@@ -172,7 +183,7 @@ main{
         padding: 20px;
     }
     
-    .nav-container, .features-container{
+    .nav-container, .features-team-container{
         flex-direction: column;
     }
 
