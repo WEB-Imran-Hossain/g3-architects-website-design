@@ -144,9 +144,64 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 70px;
 }
 
+.features-love-text{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+.features-card{
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    margin-bottom: 20px;
+}
 
+.features-love-img{
+    padding-left: 130px;
+}
+.header-love-text{
+    color: #131313;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.header-love-description{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+}
+
+.experience-badge{
+    background-color: #FF900E;
+    color: #fff;
+    width: 300px;
+    padding: 40px;
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+    margin-left: -50px;
+}
+
+.experience-text{
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.experience-description{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 40px;
+}
 
 
 /* responsive style all devices */
