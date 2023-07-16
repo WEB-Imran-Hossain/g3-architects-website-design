@@ -96,13 +96,13 @@
 /* features area start */
 main{
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 70px auto;
 }
 .features-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 85px;
+    
 }
 
 .features-img-content{
@@ -112,22 +112,23 @@ main{
 }
 
 .features-description-content{
-    padding-left: 70px;
-    padding-right: 70px;
+   padding:70px;
 }
 
 .features-text{
     color: #727272;
     font-size: 45px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .text-design-one{
     color: #131313;
+    font-weight: 700;
 }
 
 .text-design-two{
     color: #FF900E;
+    font-weight: 700;
 }
 
 .features-description{
@@ -155,6 +156,14 @@ main{
         margin-top: 30px;
         gap: 25px
     }
+
+    .features-container{
+        flex-direction: column;
+    }
+
+    .features-img-content{
+        grid-template-columns: 1fr;
+    }
 }
 
 /* tablet or medium devices */
@@ -163,7 +172,7 @@ main{
         padding: 20px;
     }
     
-    .nav-container{
+    .nav-container, .features-container{
         flex-direction: column;
     }
 
